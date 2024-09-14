@@ -1,0 +1,7 @@
+- description: verify otp success
+  request:
+    url: ^/otp/validate$
+    method: POST
+  response:
+    status: 200
+    latency: 1000
